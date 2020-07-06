@@ -11,8 +11,8 @@ import Inventory from "./components/Inventory";
 //import { AddInventoryContainer } from "./containers/AddInventoryContainer";
 //import AddShopForm from "./AddShopForm";
 
-// import HomeComponent from "./components/HomeComponent";
-// import HomeComponentWithIndexedDB from "./components/HomeComponentWithIndexedDB";
+import HomeComponent from "./components/HomeComponent";
+import HomeComponentWithIndexedDB from "./components/HomeComponentWithIndexedDB";
 
 initDB(DBConfig);
 
@@ -29,10 +29,10 @@ const App = () => {
         &nbsp;
         {/* <FormExample /> */}
         {/* <InventoryList /> */}
-        {/* <HomeComponent />
+        <HomeComponent />
         &nbsp;
         <HomeComponentWithIndexedDB />
-        &nbsp; */}
+        &nbsp;
       </Jumbotron>
     </Container>
   );
